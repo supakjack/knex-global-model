@@ -1,3 +1,4 @@
+require("dotenv").config();
 const knex = require('knex')({
   client: process.env.KNEX_CLIENT,
   connection: {
