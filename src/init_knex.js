@@ -1,12 +1,19 @@
-require("dotenv").config();
-const knex = require('knex')({
-  client: process.env.KNEX_CLIENT,
-  connection: {
-    host: process.env.KNEX_HOST,
-    user: process.env.KNEX_USER,
-    password: process.env.KNEX_PASSWORD,
-    database: process.env.KNEX_DATABASE,
-    port : process.env.KNEX_PORT
-  }
-})
-module.exports = knex
+module.exports = (
+  KNEX_HOST,
+  KNEX_CLIENT,
+  KNEX_USER,
+  KNEX_PASSWORD,
+  KNEX_DATABASE,
+  KNEX_PORT
+) => {
+  return require('knex')({
+    client: KNEX_CLIENT,
+    connection: {
+      host: KNEX_HOST,
+      user: KNEX_USER,
+      password: KNEX_PASSWORD,
+      database: KNEX_DATABASE,
+      port: KNEX_PORT
+    }
+  })
+}
