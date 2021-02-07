@@ -1,0 +1,24 @@
+{
+  "name": "knex-global-model",
+  "version": "1.0.0",
+  "description": "easy to use knex.js by global model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supakjack/knex-global-model.git"
+  },
+  "keywords": [
+    "knex.js",
+    "global-model",
+    "knex-global-model"
+  ],
+  "author": "supakjack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supakjack/knex-global-model/issues"
+  },
+  "homepage": "https://github.com/supakjack/knex-global-model#readme"
+}
