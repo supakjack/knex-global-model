@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/supakjack/knex-global-model/issues"
   },
-  "homepage": "https://github.com/supakjack/knex-global-model#readme"
+  "homepage": "https://github.com/supakjack/knex-global-model#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "http-errors": "^1.8.0",
+    "knex": "^0.21.17"
+  }
 }
