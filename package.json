@@ -1,14 +1,14 @@
 {
-  "name": "knex-global-model",
+  "name": "knex-mysql-global-model",
   "version": "1.0.0",
-  "description": "easy to use knex.js by global model",
-  "main": "src/knex-global-model.js",
+  "description": "easy to use mysql knex.js by global model",
+  "main": "src/knex-mysql-global-model.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supakjack/knex-global-model.git"
+    "url": "git+https://github.com/supakjack/knex-mysql-global-model.git"
   },
   "keywords": [
     "knex.js",
@@ -18,9 +18,9 @@
   "author": "supakjack",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/supakjack/knex-global-model/issues"
+    "url": "https://github.com/supakjack/knex-mysql-global-model/issues"
   },
-  "homepage": "https://github.com/supakjack/knex-global-model#readme",
+  "homepage": "https://github.com/supakjack/knex-mysql-global-model#readme",
   "dependencies": {
     "http-errors": "^1.8.0",
     "knex": "^0.21.17"

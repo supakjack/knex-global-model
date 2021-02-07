@@ -1,5 +1,5 @@
-# knex-global-model
-knex-global-model is a easy mysql model modification from knex.js.
+# knex-mysql-global-model
+knex-mysql-global-model is a easy mysql model modification from knex.js.
 # Require Package!
   - knex
   - http-errors
