@@ -1,6 +1,6 @@
 {
   "name": "knex-global-model",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "easy to use knex.js by global model",
   "main": "src/knex-global-model.js",
   "scripts": {
