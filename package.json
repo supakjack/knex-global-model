@@ -1,6 +1,6 @@
 {
   "name": "knex-mysql-global-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "easy to use mysql knex.js by global model",
   "main": "src/knex-mysql-global-model.js",
   "scripts": {
